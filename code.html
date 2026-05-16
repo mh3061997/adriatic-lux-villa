@@ -1,376 +1,443 @@
-<!DOCTYPE html>
-
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>ADRIATICLUX | The Art of Private Luxury on Vis Island</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "surface-variant": "#e9e1dc",
-                        "surface-container-lowest": "#ffffff",
-                        "background": "#fff8f5",
-                        "primary-container": "#0f2a43",
-                        "tertiary-container": "#292927",
-                        "on-secondary-container": "#785a1a",
-                        "on-error-container": "#93000a",
-                        "surface-container-low": "#fbf2ed",
-                        "on-background": "#1e1b18",
-                        "primary-fixed": "#d0e4ff",
-                        "on-tertiary": "#ffffff",
-                        "inverse-on-surface": "#f8efea",
-                        "tertiary": "#141513",
-                        "tertiary-fixed": "#e5e2de",
-                        "outline-variant": "#c3c6ce",
-                        "on-primary-fixed": "#001d35",
-                        "inverse-primary": "#b0c9e9",
-                        "tertiary-fixed-dim": "#c8c6c2",
-                        "on-primary": "#ffffff",
-                        "surface": "#fff8f5",
-                        "surface-dim": "#e1d8d4",
-                        "on-tertiary-fixed-variant": "#474744",
-                        "surface-container": "#f5ece7",
-                        "secondary-container": "#fed488",
-                        "on-error": "#ffffff",
-                        "surface-container-high": "#efe6e2",
-                        "error": "#ba1a1a",
-                        "on-primary-container": "#7992b0",
-                        "surface-bright": "#fff8f5",
-                        "secondary-fixed": "#ffdea5",
-                        "outline": "#74777e",
-                        "primary-fixed-dim": "#b0c9e9",
-                        "secondary": "#775a19",
-                        "on-secondary-fixed-variant": "#5d4201",
-                        "surface-container-highest": "#e9e1dc",
-                        "on-surface-variant": "#43474d",
-                        "on-tertiary-container": "#91908c",
-                        "error-container": "#ffdad6",
-                        "secondary-fixed-dim": "#e9c176",
-                        "primary": "#001529",
-                        "inverse-surface": "#34302c",
-                        "on-secondary-fixed": "#261900",
-                        "on-primary-fixed-variant": "#304963",
-                        "on-secondary": "#ffffff",
-                        "surface-tint": "#48607c",
-                        "on-surface": "#1e1b18",
-                        "on-tertiary-fixed": "#1c1c19"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
-                        "full": "9999px"
-                    },
-                    "spacing": {
-                        "margin-desktop": "80px",
-                        "margin-mobile": "24px",
-                        "unit": "8px",
-                        "gutter": "24px",
-                        "container-max": "1440px",
-                        "section-gap": "120px"
-                    },
-                    "fontFamily": {
-                        "headline-md": ["Libre Caslon Text"],
-                        "headline-lg": ["Libre Caslon Text"],
-                        "display-lg": ["Libre Caslon Text"],
-                        "headline-lg-mobile": ["Libre Caslon Text"],
-                        "body-md": ["Manrope"],
-                        "body-lg": ["Manrope"],
-                        "label-caps": ["Manrope"]
-                    },
-                    "fontSize": {
-                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
-                        "headline-lg": ["48px", {"lineHeight": "56px", "fontWeight": "400"}],
-                        "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
-                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
-                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
-                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}]
+<!DOCTYPE html><html class="scroll-smooth" lang="hr"><head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>ADRIATICLUX | Umjetnost privatnog luksuza na otoku Visu</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+            tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    extend: {
+                        "colors": {
+                            "surface-variant": "#e9e1dc",
+                            "surface-container-lowest": "#ffffff",
+                            "background": "#fff8f5",
+                            "primary-container": "#0f2a43",
+                            "tertiary-container": "#292927",
+                            "on-secondary-container": "#785a1a",
+                            "on-error-container": "#93000a",
+                            "surface-container-low": "#fbf2ed",
+                            "on-background": "#1e1b18",
+                            "primary-fixed": "#d0e4ff",
+                            "on-tertiary": "#ffffff",
+                            "inverse-on-surface": "#f8efea",
+                            "tertiary": "#141513",
+                            "tertiary-fixed": "#e5e2de",
+                            "outline-variant": "#c3c6ce",
+                            "on-primary-fixed": "#001d35",
+                            "inverse-primary": "#b0c9e9",
+                            "tertiary-fixed-dim": "#c8c6c2",
+                            "on-primary": "#ffffff",
+                            "surface": "#fff8f5",
+                            "surface-dim": "#e1d8d4",
+                            "on-tertiary-fixed-variant": "#474744",
+                            "surface-container": "#f5ece7",
+                            "secondary-container": "#fed488",
+                            "on-error": "#ffffff",
+                            "surface-container-high": "#efe6e2",
+                            "error": "#ba1a1a",
+                            "on-primary-container": "#7992b0",
+                            "surface-bright": "#fff8f5",
+                            "secondary-fixed": "#ffdea5",
+                            "outline": "#74777e",
+                            "primary-fixed-dim": "#b0c9e9",
+                            "secondary": "#775a19",
+                            "on-secondary-fixed-variant": "#5d4201",
+                            "surface-container-highest": "#e9e1dc",
+                            "on-surface-variant": "#43474d",
+                            "on-tertiary-container": "#91908c",
+                            "error-container": "#ffdad6",
+                            "secondary-fixed-dim": "#e9c176",
+                            "primary": "#001529",
+                            "inverse-surface": "#34302c",
+                            "on-secondary-fixed": "#261900",
+                            "on-primary-fixed-variant": "#304963",
+                            "on-secondary": "#ffffff",
+                            "surface-tint": "#48607c",
+                            "on-surface": "#1e1b18",
+                            "on-tertiary-fixed": "#1c1c19"
+                        },
+                        "borderRadius": {
+                            "DEFAULT": "0.25rem",
+                            "lg": "0.5rem",
+                            "xl": "0.75rem",
+                            "full": "9999px"
+                        },
+                        "spacing": {
+                            "margin-desktop": "80px",
+                            "margin-mobile": "24px",
+                            "unit": "8px",
+                            "gutter": "24px",
+                            "container-max": "1440px",
+                            "section-gap": "120px"
+                        },
+                        "fontFamily": {
+                            "headline-md": ["Libre Caslon Text"],
+                            "headline-lg": ["Libre Caslon Text"],
+                            "display-lg": ["Libre Caslon Text"],
+                            "headline-lg-mobile": ["Libre Caslon Text"],
+                            "body-md": ["Manrope"],
+                            "body-lg": ["Manrope"],
+                            "label-caps": ["Manrope"]
+                        },
+                        "fontSize": {
+                            "headline-md": ["28px", {"lineHeight": "36px", "fontWeight": "400"}],
+                            "headline-lg": ["36px", {"lineHeight": "44px", "fontWeight": "400"}],
+                            "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                            "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
+                            "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                            "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                            "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}]
+                        }
                     }
                 }
             }
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-            font-size: 24px;
-        }
-        .hero-gradient {
-            background: linear-gradient(to bottom, rgba(0, 21, 41, 0.5), rgba(0, 21, 41, 0.2));
-        }
-        .styled-map {
-            filter: grayscale(1) contrast(1.1) brightness(0.9) invert(0.1);
-        }
-    </style>
-</head>
-<body class="bg-background text-on-background font-body-md">
-<!-- TopNavBar -->
-<header class="bg-transparent backdrop-blur-md sticky top-0 z-50 bg-surface/80 dark:bg-surface-dim/80 border-b border-outline-variant/30">
-<nav class="flex justify-between items-center w-full px-margin-desktop py-6 max-w-container-max mx-auto">
-<div class="flex items-center gap-12">
-<a class="font-label-caps text-body-lg tracking-[0.2em] font-bold text-primary dark:text-primary-fixed" href="#">
-                ADRIATICLUX
-            </a>
-<div class="hidden md:flex items-center gap-8">
-<a class="text-primary dark:text-primary-fixed border-b border-primary dark:border-primary-fixed pb-1 font-label-caps text-label-caps" href="#villa">The Villa</a>
-<a class="text-on-surface-variant dark:text-surface-variant font-label-caps text-label-caps hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#experiences">Experiences</a>
-<a class="text-on-surface-variant dark:text-surface-variant font-label-caps text-label-caps hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#location">Location</a>
-</div>
-</div>
-<button class="bg-primary text-on-primary px-8 py-3 font-label-caps text-label-caps hover:opacity-80 transition-opacity duration-300">
-            Book Now
-        </button>
-</nav>
-</header>
-<main>
-<!-- Hero Section -->
-<section class="relative h-screen min-h-[700px] flex items-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<video autoplay="" class="w-full h-full object-cover" loop="" muted="" playsinline="">
-<source src="https://assets.mixkit.co/videos/preview/mixkit-luxury-resort-with-a-pool-and-palm-trees-at-sunset-1215-large.mp4" type="video/mp4"/>
-<!-- Fallback Image -->
-<img alt="Villa AdriaticLux" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDONjE5ASIxE_vDzDT5hoM2OsMJSHHuR2Ed_av-cUzLV-4blW5e74vGYmZFvssLHIlvGrSaq3Al78bHqVAA9Ygl_mauY_Fx_0BTlZOfUsJXwVrjq7BECRC1T3tJUhwVq71YxZVcuk7FA304KUK_NMBoif-TIkORUfIWDiHrzv4gMKJ0wEYWbaxCTmrXntBhmFnVLBmI99hEmPsQ43G0KbKYoGFA5OB5guch3tvyK8u40uY0BYvzNjr7qXVa7Yzz4kFpfv-mhbnQUYO"/>
-</video>
-<div class="absolute inset-0 hero-gradient"></div>
-</div>
-<div class="relative z-10 w-full px-margin-desktop max-w-container-max mx-auto text-on-primary">
-<div class="max-w-3xl">
-<span class="font-label-caps text-label-caps tracking-[0.3em] mb-6 block">VIS ISLAND, CROATIA</span>
-<h1 class="font-display-lg text-display-lg md:text-[80px] leading-tight mb-8">The Art of Private Luxury on Vis Island</h1>
-<p class="font-body-lg text-body-lg mb-12 opacity-90 max-w-xl">Experience unparalleled Mediterranean elegance in a sanctuary where modern architectural precision meets the raw beauty of the Adriatic coast.</p>
-<div class="flex gap-6">
-<a class="bg-surface-container-lowest text-primary px-10 py-4 font-label-caps text-label-caps hover:bg-surface-variant transition-colors" href="#villa">EXPLORE VILLA</a>
-<a class="border border-surface-container-lowest text-on-primary px-10 py-4 font-label-caps text-label-caps hover:bg-surface-container-lowest hover:text-primary transition-all" href="#contact">INQUIRE</a>
-</div>
-</div>
-</div>
-</section>
-<!-- About the Villa: Architectural Mastery -->
-<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto" id="villa">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
-<div class="space-y-8">
-<span class="font-label-caps text-label-caps text-secondary tracking-widest">ARCHITECTURAL SANCTUARY</span>
-<h2 class="font-headline-lg text-headline-lg text-primary">A Masterpiece of Modern Mediterranean Living</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                    Nestled on the rugged southern coast of Vis, AdriaticLux represents the pinnacle of contemporary coastal design. Our villa harmonizes monolithic concrete forms with the organic warmth of local Istrian stone, creating a space that feels both timeless and avant-garde. 
-                </p>
-<div class="grid grid-cols-2 gap-8 pt-4">
-<div class="flex flex-col gap-2">
-<span class="material-symbols-outlined text-secondary" data-icon="bed">bed</span>
-<span class="font-headline-md text-headline-md text-primary">3 En-Suites</span>
-<span class="font-body-md text-on-surface-variant">Panoramic sea views from every bed.</span>
-</div>
-<div class="flex flex-col gap-2">
-<span class="material-symbols-outlined text-secondary" data-icon="pool">pool</span>
-<span class="font-headline-md text-headline-md text-primary">Infinity Pool</span>
-<span class="font-body-md text-on-surface-variant">Chlorine-free heated swimming.</span>
-</div>
-</div>
-</div>
-<div class="relative aspect-[4/5] overflow-hidden">
-<img alt="Luxury villa interior" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9AXAlxrjY2a8meY5RW21tGHKWFGmlnbhjWdZ9-slqTEkTct1vLUtim3g21uQ01OnFUwbbpnHj8_Sw7qbLTs7cWAy7gN7V8gMcgpXSViCbunEtktla-Pf0F1cI9vSCI2zcO2ucwpFio_Oz7fWDqeCIm9W8JfUSRPgdwK7U7vgWIsuoqobyg1s9PV8qec9If00RAapJYNzNJACpikOYqxdDmbq0D2dM8lJCdmlQYIod8kp-X4BpTwPjgrGh4FLnWNnAQJXjjHuvT72M"/>
-</div>
-</div>
-<!-- Amenities Chips -->
-<div class="flex flex-wrap gap-4 mt-24 justify-center">
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">PRIVATE GYM</span>
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">FINNISH SAUNA</span>
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">MEDITERRANEAN GARDEN</span>
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">OUTDOOR KITCHEN</span>
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">WINE CELLAR</span>
-<span class="bg-surface-container px-6 py-2 font-label-caps text-label-caps text-primary">SPA SUITE</span>
-</div>
-</section>
-<!-- The Experience: Curated Services -->
-<section class="bg-surface-container-low py-section-gap" id="experiences">
-<div class="px-margin-desktop max-w-container-max mx-auto">
-<div class="text-center mb-20">
-<span class="font-label-caps text-label-caps text-secondary tracking-widest">BESPOKE SERVICES</span>
-<h2 class="font-headline-lg text-headline-lg text-primary mt-4">Unparalleled Personal Service</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-<!-- Private Chef -->
-<div class="group cursor-pointer">
-<div class="overflow-hidden aspect-square mb-6 bg-surface">
-<img alt="Private Chef Service" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7uqG0YxY_VU4i3C8jiQXP-ilRS92mF_Qfn5qSAYah2zxvz1VaG5vCT_gtxIW6Ctj1YuSsi26KdnSA0LFA5ayHxXg-Evkdo29SRoD3yHdILxo5iNrQ5ktfeMiVWj0SW0TF75kLuCw6imbqrMl1uOPEUyT_HnkIQfuixmy0kMGOl9FWUvheM_dcCBg6aesIHO1exFZRMqN_-cBJee7_DPbKYUHNEkW9HWhmU6rHv0KS-0ttDDpQIHZkWp_2iRCoJHE7tG9aY6q34vN2"/>
-</div>
-<div class="flex items-center gap-3 mb-2">
-<span class="material-symbols-outlined text-secondary" data-icon="restaurant">restaurant</span>
-<h3 class="font-headline-md text-headline-md text-primary">Private Chef</h3>
-</div>
-<p class="font-body-md text-on-surface-variant">Daily breakfast and curated tasting menus featuring fresh catches from the Vis fishing boats.</p>
-</div>
-<!-- Housekeeping -->
-<div class="group cursor-pointer">
-<div class="overflow-hidden aspect-square mb-6 bg-surface">
-<img alt="Daily Service" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwBe6Z9aMl4fhfO8PFLDCCjY1SMZFHycd4wfXVc7slc0AnPmknP1Y6EhUsnjuI-IV46P4YcavOfFS55wL5Fj73daXwkIsV4ZReHCWVbE4rUmc6BcOkYFll1KTufMTiJ6HW-9HSCEdf5Z3Kynmb1XCFNs-FoSzUd2GjGHg032I-x7CmavLnwXmXWQYp5N8cQ-Jzwe0C5DXzsp27cO1gpI2_dPyAjugqRc3bDD_8784q3UQDIvtRLv7ALFH1r_tsSD0cW12Dl58Hi-ni"/>
-</div>
-<div class="flex items-center gap-3 mb-2">
-<span class="material-symbols-outlined text-secondary" data-icon="clean_hands">clean_hands</span>
-<h3 class="font-headline-md text-headline-md text-primary">Daily Service</h3>
-</div>
-<p class="font-body-md text-on-surface-variant">Discreet housekeeping and turn-down service to ensure your sanctuary remains pristine.</p>
-</div>
-<!-- Jet Ski / Concierge -->
-<div class="group cursor-pointer">
-<div class="overflow-hidden aspect-square mb-6 bg-surface">
-<img alt="Adventure Services" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_Znt5soZhXYAXruRUuNASnJeF58JAnLk7esCMkr3xKl6e8W1VqV3YHmOPyQK2sy0fmum9eYIXAY-JBIzi6nLyHEOauqxtl7KBHkwbTkphA_9IeYl2gdK7nPtxY9Q4-QgJTE_shTIR1ol2O063bswdrwR3aHPcqpbib1GgJgBlkXvQIlK1puaq3OYpjBatrf17q6x8lKu9XJrRZPxn3VoRHECXvxEfRn9aZvJNzC0uuxAxjmaHab8jGyUmdfkX4rgSYx5tbuyyISlW"/>
-</div>
-<div class="flex items-center gap-3 mb-2">
-<span class="material-symbols-outlined text-secondary" data-icon="sailing">sailing</span>
-<h3 class="font-headline-md text-headline-md text-primary">Adventure</h3>
-</div>
-<p class="font-body-md text-on-surface-variant">Private jet ski rentals and skippered boat tours to the island's most secluded caves.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Explore Vis: Bento Grid -->
-<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto">
-<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-<div>
-<span class="font-label-caps text-label-caps text-secondary tracking-widest">DISCOVER THE UNKNOWN</span>
-<h2 class="font-headline-lg text-headline-lg text-primary mt-4">The Secrets of Vis</h2>
-</div>
-<p class="font-body-lg text-on-surface-variant max-w-md">Once a closed military base, Vis remains the most authentic and mysterious of the Dalmatian islands.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter h-[800px]">
-<div class="md:col-span-8 relative group overflow-hidden">
-<img alt="Stiniva Beach" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLk5PjYvmehQGpJPNOKNpcoO9ijx4lGXBLsgIbcmWGrQaUSyVR2DiCaAjNUTtUgRHh-IJf5Gns21zlrTM6_M-pBwYKcNfhoUfce5lUnM5B0OgbYjxjwPOK5_UUs37t1eQYncMkc3toEelOm57x6cG5Y5fLj6U8oMvrRkUKPujG2c-S30Upj9E9pXKOdKOQLrcn_Hfi5VAluWhMgPqRMgBl9V09XdTt4M8nPwjRuXn7HZEbrLU5gY-PqxrQ0kwYEB8jDr-6M9AGBgu_"/>
-<div class="absolute bottom-0 left-0 p-10 text-on-primary bg-gradient-to-t from-primary/60 to-transparent w-full">
-<h4 class="font-headline-md text-headline-md">Stiniva Beach</h4>
-<p class="font-body-md opacity-90">Voted Europe's most beautiful beach, hidden behind narrow cliffs.</p>
-</div>
-</div>
-<div class="md:col-span-4 relative group overflow-hidden">
-<img alt="Blue Cave" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlGiHDM6Ndai4B2zyFDmL3aqUtA88xFtiQMPR0yV1SmSj-dCku3CuVEQSPnqtiSt9YyCMAMw9p9s3ZPmZVGhPWj2dFwTSAx5d886jVFoydXB1vIj466P75_0I2LLTQMyNmmF87_G6gxd_bTzdxO_BP7gYrPprJE_E2jwTk_U770tjazWXaEXlHxLdNHuGucfTODlTpkeellyo_JC6GnkooyyR4609j_46PLuxdB3cIVl-O9a_faOER2BMEABS03GUAHa2lZcxIT05U"/>
-<div class="absolute bottom-0 left-0 p-10 text-on-primary bg-gradient-to-t from-primary/60 to-transparent w-full">
-<h4 class="font-headline-md text-headline-md">Blue Cave</h4>
-<p class="font-body-md opacity-90">An otherworldly natural light show on Biševo.</p>
-</div>
-</div>
-<div class="md:col-span-4 relative group overflow-hidden">
-<div class="absolute inset-0 bg-secondary/10 z-10"></div>
-<img alt="Military Tunnels" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXd37uAFEbosvI0uNitp-QZ5ODkKENXee0ezKc8GDdlcByyPTJQKqQUBhNuXUTWoCNtsapu7JBNYWGhS176lMgLhXPDZlla6ZnSr61FGUn5QE5cqsrn7I8U1M6UPifpkFOGBzG8rE-chBnmut6Uq5TKegOuUZ9IpmH5qdNzUr6oHVeZHBKXtvcpWX1lLpbdLfwcJAnVCc6ORaGrZiwjnGARE_C7GpZnqOfWt0cCA0Y-hsq98Aol4-VrXfem__MTLpHM7HAcEnF6VdQ"/>
-<div class="absolute bottom-0 left-0 p-10 text-on-primary bg-gradient-to-t from-primary/60 to-transparent w-full">
-<h4 class="font-headline-md text-headline-md">Military Tours</h4>
-<p class="font-body-md opacity-90">Explore hidden cold-war tunnels and submarine bases.</p>
-</div>
-</div>
-<div class="md:col-span-8 relative group overflow-hidden">
-<img alt="Green Cave" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVtXOmLG1r3rpoSpxFuliw8Qs-G5MmcjIhwMpKXwd2Po1wlxRlSqhE3N9LYEk1AnExuVBEIwam8122A4NorNk2k87NE0XoML7i9kIBTAU6Ib-6cWybzDK4XRlE7WPK-iQ3WrzPu_nwwU1F_fbsb-_jRvBMRWKlEXPGHUd1XV41tA1M812_Au_7o72Xk3pwGpnUi1lXEzCrkCJJroCoZrSbubIg_QxYRoJ1uuxLTXeNl2AGjrvEeFqlilMfUSg-2iqXTwvv8rH0Cpb2"/>
-<div class="absolute bottom-0 left-0 p-10 text-on-primary bg-gradient-to-t from-primary/60 to-transparent w-full">
-<h4 class="font-headline-md text-headline-md">Green Cave</h4>
-<p class="font-body-md opacity-90">Sunbeams piercing through an emerald lagoon.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Location & Map -->
-<section class="py-section-gap" id="location">
-<div class="px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-3 gap-gutter">
-<div class="lg:col-span-1 space-y-8 pr-12">
-<span class="font-label-caps text-label-caps text-secondary tracking-widest">THE LOCATION</span>
-<h2 class="font-headline-lg text-headline-lg text-primary">Rukavac, Vis</h2>
-<p class="font-body-md text-on-surface-variant leading-relaxed">
-                    AdriaticLux is situated in the prestigious Rukavac area, known for its tranquil bays and crystal-clear waters. A private path leads directly from the villa to a secluded cove, offering the ultimate in coastal privacy.
-                </p>
-<div class="space-y-4 pt-4">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-secondary" data-icon="location_on">location_on</span>
-<span class="font-body-md">Put Rukavca bb, 21480 Vis, Croatia</span>
-</div>
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-secondary" data-icon="flight">flight</span>
-<span class="font-body-md">90 mins by private boat from Split Airport</span>
-</div>
-</div>
-</div>
-<div class="lg:col-span-2 h-[500px] bg-surface-container overflow-hidden relative">
-<iframe allowfullscreen="" class="styled-map w-full h-full border-0 absolute inset-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.702166946059!2d16.216335376510344!3d43.0266042711384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1334460a5d4f1647%3A0xc333501a919f187a!2sRukavac!5e0!3m2!1sen!2shr!4v1715872000000!5m2!1sen!2shr">
-</iframe>
-</div>
-</div>
-</section>
-<!-- Inquiry Form -->
-<section class="py-section-gap bg-surface-container-highest" id="contact">
-<div class="px-margin-desktop max-w-2xl mx-auto text-center">
-<span class="font-label-caps text-label-caps text-secondary tracking-widest">RESERVATIONS</span>
-<h2 class="font-headline-lg text-headline-lg text-primary mt-4 mb-12">Begin Your Journey</h2>
-<form class="space-y-8 text-left">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="border-b border-outline py-2">
-<label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Full Name</label>
-<input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant" placeholder="E.g. Alexander Sterling" type="text"/>
-</div>
-<div class="border-b border-outline py-2">
-<label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Email Address</label>
-<input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant" placeholder="alexander@sterling.com" type="email"/>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="border-b border-outline py-2">
-<label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Preferred Dates</label>
-<input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant" placeholder="July 2024" type="text"/>
-</div>
-<div class="border-b border-outline py-2">
-<label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Guests</label>
-<select class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md">
-<option>2 Adults</option>
-<option>4 Adults</option>
-<option>6 Adults</option>
-</select>
-</div>
-</div>
-<div class="border-b border-outline py-2">
-<label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Message (Optional)</label>
-<textarea class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant h-24" placeholder="Tell us about your special occasion..."></textarea>
-</div>
-<button class="w-full bg-primary text-on-primary py-5 font-label-caps text-label-caps tracking-widest hover:bg-primary-container transition-colors">
-                    SEND INQUIRY
+        </script>
+    <style>
+            .material-symbols-outlined {
+                font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+                font-size: 24px;
+            }
+            .hero-gradient {
+                background: linear-gradient(to bottom, rgba(0, 21, 41, 0.4) 0%, rgba(0, 21, 41, 0.1) 100%);
+            }
+            .styled-map {
+                filter: grayscale(1) contrast(1.1) brightness(0.9) invert(0.1);
+            }
+            #mobile-menu {
+                transition: transform 0.3s ease-in-out;
+                transform: translateX(100%);
+            }
+            #mobile-menu.active {
+                transform: translateX(0);
+            }
+            .text-shadow-sm {
+                text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            }
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            .no-scrollbar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+        </style>
+    </head>
+    <body class="bg-background text-on-background font-body-md overflow-x-hidden">
+    <!-- TopNavBar (Responsive) -->
+    <header class="bg-surface/90 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant/30">
+    <nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+    <a class="flex items-center" href="#">
+    <img alt="ADRIATICLUX" class="h-12 md:h-14 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc81DRegUwS23oOHyhyGF9Y5c2KCo__Gchvqj9YUDwui0pKkXbpvbZjRRMicEWBBE70tIA2pQ6hD40xpDjTPAXd82FX7cdJ45uc47Az5w0ccZePwWzwIqbcEuu8JQDHonM8hmoUEcmcUVBEFN9T2RL1sxFgJmrfBURBQb5mPJ24XEqJMe2g2_G8G2tWi2MbEfFdnt0ITcr32tKyuutMo7GBEOOSMTaw2fA6bDYYceBH0rmd3w5UNZJf0dQ8rVDoW8HYKBlpmEsW_bb">
+    </a>
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex items-center gap-10">
+    <a class="font-label-caps text-label-caps hover:text-secondary transition-colors" href="#villa">VILA</a>
+    <a class="font-label-caps text-label-caps hover:text-secondary transition-colors" href="#experiences">DOŽIVLJAJI</a>
+    <a class="font-label-caps text-label-caps hover:text-secondary transition-colors" href="#location">LOKACIJA</a>
+    <div class="flex items-center gap-3 border-l border-outline-variant/50 pl-6 mr-2">
+    <button class="font-label-caps text-label-caps text-primary font-bold">HR</button>
+    <span class="text-outline-variant">|</span>
+    <button class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors">EN</button>
+    </div>
+    <button class="bg-primary text-on-primary px-8 py-3 font-label-caps text-label-caps tracking-widest hover:bg-primary-container transition-all">
+                    REZERVIRAJ
                 </button>
-</form>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-surface-container dark:bg-tertiary-container border-t border-outline-variant/50">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-gap max-w-container-max mx-auto">
-<div class="md:col-span-1">
-<h3 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed mb-6">ADRIATICLUX</h3>
-<p class="font-body-md text-on-surface-variant dark:text-on-tertiary-container max-w-xs">
-                Unparalleled Adriatic Elegance on the Island of Vis. Experience the quiet luxury of our private sanctuary.
+    </div>
+    <!-- Mobile Toggle -->
+    <div class="flex items-center gap-4 md:hidden">
+    <button class="bg-primary text-on-primary px-4 py-2 font-label-caps text-[10px] tracking-widest hover:opacity-90 transition-opacity">
+                    BUKIRAJ
+                </button>
+    <button class="text-primary p-1" id="menu-toggle">
+    <span class="material-symbols-outlined !text-3xl">menu</span>
+    </button>
+    </div>
+    </nav>
+    </header>
+    <!-- Slide-out Mobile Menu -->
+    <div class="fixed inset-0 bg-surface z-[60] flex flex-col p-margin-mobile md:hidden" id="mobile-menu">
+    <div class="flex justify-between items-center mb-12">
+    <div class="flex items-center gap-4">
+    <button class="font-label-caps text-label-caps text-primary font-bold">HR</button>
+    <span class="text-outline-variant">|</span>
+    <button class="font-label-caps text-label-caps text-on-surface-variant">EN</button>
+    </div>
+    <button class="text-primary p-1" id="menu-close">
+    <span class="material-symbols-outlined !text-3xl">close</span>
+    </button>
+    </div>
+    <div class="flex flex-col gap-8 text-center">
+    <a class="font-headline-md text-headline-md text-primary" href="#villa" onclick="toggleMenu()">Vila</a>
+    <a class="font-headline-md text-headline-md text-primary" href="#experiences" onclick="toggleMenu()">Doživljaji</a>
+    <a class="font-headline-md text-headline-md text-primary" href="#location" onclick="toggleMenu()">Lokacija</a>
+    <a class="font-headline-md text-headline-md text-primary" href="#contact" onclick="toggleMenu()">Upit</a>
+    </div>
+    <div class="mt-auto pb-12 text-center space-y-4">
+    <div class="flex justify-center gap-6">
+    <span class="material-symbols-outlined text-secondary">share</span>
+    <span class="material-symbols-outlined text-secondary">mail</span>
+    </div>
+    <p class="font-label-caps text-label-caps opacity-60">Otok Vis, Hrvatska</p>
+    </div>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        function toggleMenu() {
+            mobileMenu.classList.toggle('active');
+            document.body.classList.toggle('overflow-hidden');
+        }
+    
+        menuToggle.addEventListener('click', toggleMenu);
+        menuClose.addEventListener('click', toggleMenu);
+    </script>
+    <main>
+    <!-- Hero Section (Responsive) -->
+    <section class="relative h-[100vh] min-h-[600px] flex items-center md:items-end pb-20 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+    <img alt="Vila AdriaticLux Zalazak Arhitektura" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLMcg9fuFSvjHhdaT8iXBtpsD8srm5mo4e6TrJ5To-SFWeSVGyea17O1Mzx6oVX5X5oy2ovQPrp3aeXKn0urH9RRHyz7BNKadNYRA8S1yEqZSYzcnL-zNyAhbK_e4oGKheW-XtZdYUlNrQuGt9K52lFj_qYVwE56BSzXGS8_kC39Vw5TqFm1gnKfC5QgQ-9w6VQy6OkitwvqUFsotsmd9f7CCZMlNkOhzV32Ml7U-RG5DbX33kfXOdVJnpmKJ_SexppnIHoBK3xo2C">
+    <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+    <div class="relative z-10 w-full px-margin-mobile md:px-margin-desktop text-on-primary">
+    <div class="max-w-container-max mx-auto w-full">
+    <div class="max-w-2xl">
+    <span class="font-label-caps text-[10px] md:text-label-caps tracking-[0.4em] mb-4 block text-primary-fixed-dim uppercase">OTOK VIS, HRVATSKA</span>
+    <h1 class="font-display-lg text-display-lg md:text-[80px] md:leading-[88px] leading-tight mb-8 text-shadow-sm">Umjetnost privatnog luksuza na otoku Visu</h1>
+    <p class="font-body-md text-body-lg mb-10 opacity-90 max-w-md hidden md:block">Moderna arhitektonska preciznost susreće sirovu ljepotu jadranske obale. Doživite utočište definirano monolitnim kamenom i beskrajnim horizontima.</p>
+    <div class="flex flex-col md:flex-row gap-4">
+    <a class="bg-surface-container-lowest text-primary text-center px-12 py-5 font-label-caps text-label-caps tracking-widest hover:bg-surface-variant transition-colors uppercase" href="#villa">ISTRAŽITE VILU</a>
+    <a class="border border-surface-container-lowest text-on-primary text-center px-12 py-5 font-label-caps text-label-caps tracking-widest backdrop-blur-sm hover:bg-white/10 transition-colors uppercase" href="#contact">UPIT</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- About the Villa: Architectural Mastery -->
+    <section class="py-section-gap px-margin-mobile md:px-margin-desktop" id="villa">
+    <div class="max-w-container-max mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+    <div class="space-y-8 order-2 lg:order-1">
+    <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">ARHITEKTONSKO UTOČIŠTE</span>
+    <h2 class="font-headline-lg text-headline-lg md:text-[56px] md:leading-[64px] text-primary">Remek-djelo modernog mediteranskog života</h2>
+    <p class="font-body-md text-body-lg text-on-surface-variant leading-relaxed">
+                        Smještena na razvedenoj južnoj obali Visa, AdriaticLux predstavlja vrhunac suvremenog obalnog dizajna. Naša vila usklađuje monolitne betonske oblike s ručno klesanim lokalnim kamenom, stvarajući besprijekoran dijalog između izgrađenog okoliša i prirodnog krajolika.
+                    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+    <div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+    <span class="material-symbols-outlined text-secondary pt-1" data-icon="bed">bed</span>
+    <div>
+    <span class="font-headline-md text-headline-md text-primary block mb-1">3 Spavaće sobe</span>
+    <span class="font-body-md text-on-surface-variant">Panoramski pogled na more iz svakog kreveta.</span>
+    </div>
+    </div>
+    <div class="flex items-start gap-4 p-6 bg-surface-container-low rounded-lg">
+    <span class="material-symbols-outlined text-secondary pt-1" data-icon="pool">pool</span>
+    <div>
+    <span class="font-headline-md text-headline-md text-primary block mb-1">Infinity bazen</span>
+    <span class="font-body-md text-on-surface-variant">Grijani bazen bez klora.</span>
+    </div>
+    </div>
+    </div>
+    <!-- Amenities Chips -->
+    <div class="flex flex-wrap gap-3 pt-4">
+    <span class="bg-surface-container px-5 py-2 font-label-caps text-[10px] text-primary rounded-full uppercase">PRIVATNA TERETANA</span>
+    <span class="bg-surface-container px-5 py-2 font-label-caps text-[10px] text-primary rounded-full uppercase">FINSKA SAUNA</span>
+    <span class="bg-surface-container px-5 py-2 font-label-caps text-[10px] text-primary rounded-full uppercase">VINSKI PODRUM</span>
+    <span class="bg-surface-container px-5 py-2 font-label-caps text-[10px] text-primary rounded-full uppercase">SPA APARTMAN</span>
+    </div>
+    </div>
+    <div class="order-1 lg:order-2">
+    <div class="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
+    <img alt="Luksuzni interijer vile pogled na zalazak" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9AXAlxrjY2a8meY5RW21tGHKWFGmlnbhjWdZ9-slqTEkTct1vLUtim3g21uQ01OnFUwbbpnHj8_Sw7qbLTs7cWAy7gN7V8gMcgpXSViCbunEtktla-Pf0F1cI9vSCI2zcO2ucwpFio_Oz7fWDqeCIm9W8JfUSRPgdwK7U7vgWIsuoqobyg1s9PV8qec9If00RAapJYNzNJACpikOYqxdDmbq0D2dM8lJCdmlQYIod8kp-X4BpTwPjgrGh4FLnWNnAQJXjjHuvT72M">
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- The Experience: Curated Services -->
+    <section class="bg-surface-container-low py-section-gap px-margin-mobile md:px-margin-desktop" id="experiences">
+    <div class="max-w-container-max mx-auto">
+    <div class="text-center mb-16 md:mb-24">
+    <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">PERSONALIZIRANE USLUGE</span>
+    <h2 class="font-headline-lg text-headline-lg md:text-[56px] text-primary mt-4">Usluga bez premca</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+    <!-- Private Chef -->
+    <div class="group">
+    <div class="overflow-hidden aspect-[4/3] mb-8 rounded-lg shadow-md">
+    <img alt="Usluga privatnog kuhara" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7uqG0YxY_VU4i3C8jiQXP-ilRS92mF_Qfn5qSAYah2zxvz1VaG5vCT_gtxIW6Ctj1YuSsi26KdnSA0LFA5ayHxXg-Evkdo29SRoD3yHdILxo5iNrQ5ktfeMiVWj0SW0TF75kLuCw6imbqrMl1uOPEUyT_HnkIQfuixmy0kMGOl9FWUvheM_dcCBg6aesIHO1exFZRMqN_-cBJee7_DPbKYUHNEkW9HWhmU6rHv0KS-0ttDDpQIHZkWp_2iRCoJHE7tG9aY6q34vN2">
+    </div>
+    <div class="flex items-center gap-3 mb-4">
+    <span class="material-symbols-outlined text-secondary" data-icon="restaurant">restaurant</span>
+    <h3 class="font-headline-md text-headline-md text-primary">Privatni kuhar</h3>
+    </div>
+    <p class="font-body-md text-on-surface-variant">Dnevni doručak i pomno odabrani degustacijski jelovnici sa svježim lokalnim plodovima Jadrana.</p>
+    </div>
+    <!-- Housekeeping -->
+    <div class="group">
+    <div class="overflow-hidden aspect-[4/3] mb-8 rounded-lg shadow-md">
+    <img alt="Dnevna usluga pospremanja" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwBe6Z9aMl4fhfO8PFLDCCjY1SMZFHycd4wfXVc7slc0AnPmknP1Y6EhUsnjuI-IV46P4YcavOfFS55wL5Fj73daXwkIsV4ZReHCWVbE4rUmc6BcOkYFll1KTufMTiJ6HW-9HSCEdf5Z3Kynmb1XCFNs-FoSzUd2GjGHg032I-x7CmavLnwXmXWQYp5N8cQ-Jzwe0C5DXzsp27cO1gpI2_dPyAjugqRc3bDD_8784q3UQDIvtRLv7ALFH1r_tsSD0cW12Dl58Hi-ni">
+    </div>
+    <div class="flex items-center gap-3 mb-4">
+    <span class="material-symbols-outlined text-secondary" data-icon="clean_hands">clean_hands</span>
+    <h3 class="font-headline-md text-headline-md text-primary">Dnevna usluga</h3>
+    </div>
+    <p class="font-body-md text-on-surface-variant">Diskretno održavanje i večernja priprema soba, osiguravajući da vaše utočište ostane besprijekorno.</p>
+    </div>
+    <!-- Adventure -->
+    <div class="group">
+    <div class="overflow-hidden aspect-[4/3] mb-8 rounded-lg shadow-md">
+    <img alt="Avanturističke usluge" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_Znt5soZhXYAXruRUuNASnJeF58JAnLk7esCMkr3xKl6e8W1VqV3YHmOPyQK2sy0fmum9eYIXAY-JBIzi6nLyHEOauqxtl7KBHkwbTkphA_9IeYl2gdK7nPtxY9Q4-QgJTE_shTIR1ol2O063bswdrwR3aHPcqpbib1GgJgBlkXvQIlK1puaq3OYpjBatrf17q6x8lKu9XJrRZPxn3VoRHECXvxEfRn9aZvJNzC0uuxAxjmaHab8jGyUmdfkX4rgSYx5tbuyyISlW">
+    </div>
+    <div class="flex items-center gap-3 mb-4">
+    <span class="material-symbols-outlined text-secondary" data-icon="sailing">sailing</span>
+    <h3 class="font-headline-md text-headline-md text-primary">Avantura</h3>
+    </div>
+    <p class="font-body-md text-on-surface-variant">Privatni najam jet-skija i luksuzne vožnje brodom sa skiperom do skrivenih špilja i zaboravljenih uvala.</p>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- Explore Vis: Secrets of Vis -->
+    <section class="py-section-gap px-margin-mobile md:px-margin-desktop">
+    <div class="max-w-container-max mx-auto">
+    <div class="mb-16">
+    <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">OTKRIJTE NEPOZNATO</span>
+    <h2 class="font-headline-lg text-headline-lg md:text-[56px] text-primary mt-4">Tajne Visa</h2>
+    <p class="font-body-md text-on-surface-variant mt-4 max-w-2xl">Nekoć zatvorena vojna baza, Vis ostaje najautentičniji hrvatski otok, nudeći netaknutu prirodu i povijesne intrige.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+    <div class="relative aspect-square overflow-hidden rounded-lg group cursor-pointer">
+    <img alt="Plaža Stiniva" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLk5PjYvmehQGpJPNOKNpcoO9ijx4lGXBLsgIbcmWGrQaUSyVR2DiCaAjNUTtUgRHh-IJf5Gns21zlrTM6_M-pBwYKcNfhoUfce5lUnM5B0OgbYjxjwPOK5_UUs37t1eQYncMkc3toEelOm57x6cG5Y5fLj6U8oMvrRkUKPujG2c-S30Upj9E9pXKOdKOQLrcn_Hfi5VAluWhMgPqRMgBl9V09XdTt4M8nPwjRuXn7HZEbrLU5gY-PqxrQ0kwYEB8jDr-6M9AGBgu_">
+    <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 p-8 text-on-primary bg-gradient-to-t from-primary/90 to-transparent w-full">
+    <h4 class="font-headline-md text-headline-md">Plaža Stiniva</h4>
+    </div>
+    </div>
+    <div class="relative aspect-square overflow-hidden rounded-lg group cursor-pointer">
+    <img alt="Modra špilja" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlGiHDM6Ndai4B2zyFDmL3aqUtA88xFtiQMPR0yV1SmSj-dCku3CuVEQSPnqtiSt9YyCMAMw9p9s3ZPmZVGhPWj2dFwTSAx5d886jVFoydXB1vIj466P75_0I2LLTQMyNmmF87_G6gxd_bTzdxO_BP7gYrPprJE_E2jwTk_U770tjazWXaEXlHxLdNHuGucfTODlTpkeellyo_JC6GnkooyyR4609j_46PLuxdB3cIVl-O9a_faOER2BMEABS03GUAHa2lZcxIT05U">
+    <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 p-8 text-on-primary bg-gradient-to-t from-primary/90 to-transparent w-full">
+    <h4 class="font-headline-md text-headline-md">Modra špilja</h4>
+    </div>
+    </div>
+    <div class="relative aspect-square overflow-hidden rounded-lg group cursor-pointer">
+    <img alt="Zelena špilja" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVtXOmLG1r3rpoSpxFuliw8Qs-G5MmcjIhwMpKXwd2Po1wlxRlSqhE3N9LYEk1AnExuVBEIwam8122A4NorNk2k87NE0XoML7i9kIBTAU6Ib-6cWybzDK4XRlE7WPK-iQ3WrzPu_nwwU1F_fbsb-_jRvBMRWKlEXPGHUd1XV41tA1M812_Au_7o72Xk3pwGpnUi1lXEzCrkCJJroCoZrSbubIg_QxYRoJ1uuxLTXeNl2AGjrvEeFqlilMfUSg-2iqXTwvv8rH0Cpb2">
+    <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 p-8 text-on-primary bg-gradient-to-t from-primary/90 to-transparent w-full">
+    <h4 class="font-headline-md text-headline-md">Zelena špilja</h4>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- Location & Map -->
+    <section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low" id="location">
+    <div class="max-w-4xl mx-auto text-center space-y-8">
+    <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">LOKACIJA</span>
+    <h2 class="font-headline-lg text-headline-lg md:text-[56px] text-primary">Rukavac, Vis</h2>
+    <p class="font-body-md text-body-lg text-on-surface-variant leading-relaxed max-w-2xl mx-auto">
+                Poznat po mirnim uvalama i kristalno čistom smaragdnom moru. Privatna staza obrubljena lavandom vodi izravno od vile do osamljene uvale.
             </p>
-</div>
-<div class="flex flex-col gap-4">
-<span class="font-label-caps text-label-caps text-primary mb-2">QUICK LINKS</span>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#villa">The Villa</a>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#experiences">Experiences</a>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#location">Location</a>
-</div>
-<div class="flex flex-col gap-4">
-<span class="font-label-caps text-label-caps text-primary mb-2">LEGAL</span>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#">Privacy Policy</a>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#">Terms of Service</a>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#">Sustainability</a>
-</div>
-<div class="flex flex-col gap-4">
-<span class="font-label-caps text-label-caps text-primary mb-2">CONNECT</span>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#">Instagram</a>
-<a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary transition-colors font-body-md" href="#">Contact Us</a>
-</div>
-</div>
-<div class="px-margin-desktop py-8 border-t border-outline-variant/30 max-w-container-max mx-auto text-center">
-<p class="font-label-caps text-[10px] text-on-surface-variant opacity-60">
-            © 2024 ADRIATICLUX LUXURY VILLAS. UNPARALLELED ADRIATIC ELEGANCE.
-        </p>
-</div>
-</footer>
-</body></html>
+    <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-12 pt-4">
+    <div class="flex items-center gap-4 px-6 py-4 bg-surface rounded-lg shadow-sm border border-outline-variant/30">
+    <span class="material-symbols-outlined text-secondary" data-icon="location_on">location_on</span>
+    <span class="font-body-md">Put Rukavca bb, 21480 Vis, Hrvatska</span>
+    </div>
+    <div class="flex items-center gap-4 px-6 py-4 bg-surface rounded-lg shadow-sm border border-outline-variant/30">
+    <span class="material-symbols-outlined text-secondary" data-icon="flight">flight</span>
+    <span class="font-body-md">90 min privatnim brodom iz Splita</span>
+    </div>
+    </div>
+    <div class="h-[400px] md:h-[500px] w-full bg-surface-container overflow-hidden relative rounded-xl mt-12 shadow-xl">
+    <iframe allowfullscreen="" class="styled-map w-full h-full border-0 absolute inset-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.8519119616335!2d16.20845577660237!3d43.02322307113945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13344616239f6003%3A0x640b3e583f7f45c4!2sRukavac!5e0!3m2!1sen!2shr!4v1715872000000!5m2!1sen!2shr">
+    </iframe>
+    </div>
+    </div>
+    </section>
+    <!-- Inquiry Form -->
+    <section class="py-section-gap bg-surface-container-highest px-margin-mobile md:px-margin-desktop" id="contact">
+    <div class="max-w-2xl mx-auto">
+    <div class="text-center mb-16">
+    <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">REZERVACIJE</span>
+    <h2 class="font-headline-lg text-headline-lg md:text-[56px] text-primary mt-4">Započnite svoje putovanje</h2>
+    </div>
+    <form class="space-y-8 bg-surface p-8 md:p-12 rounded-lg shadow-2xl border border-outline-variant/20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="border-b border-outline/30 py-2 focus-within:border-primary transition-colors">
+    <label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Puno ime</label>
+    <input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant h-10" placeholder="Alexander Sterling" type="text">
+    </div>
+    <div class="border-b border-outline/30 py-2 focus-within:border-primary transition-colors">
+    <label class="font-label-caps text-[10px] text-on-surface-variant uppercase">E-mail adresa</label>
+    <input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant h-10" placeholder="alexander@sterling.com" type="email">
+    </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="border-b border-outline/30 py-2 focus-within:border-primary transition-colors">
+    <label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Željeni datumi</label>
+    <input class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant h-10" placeholder="Srpanj 2024" type="text">
+    </div>
+    <div class="border-b border-outline/30 py-2 focus-within:border-primary transition-colors">
+    <label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Gosti</label>
+    <select class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md h-10 cursor-pointer">
+    <option>2 odrasle osobe</option>
+    <option>4 odrasle osobe</option>
+    <option>6 odraslih osoba</option>
+    </select>
+    </div>
+    </div>
+    <div class="border-b border-outline/30 py-2 focus-within:border-primary transition-colors">
+    <label class="font-label-caps text-[10px] text-on-surface-variant uppercase">Poruka (opcionalno)</label>
+    <textarea class="w-full bg-transparent border-none focus:ring-0 p-0 text-body-md placeholder:text-outline-variant h-32 mt-2 resize-none" placeholder="Recite nam nešto o vašoj posebnoj prigodi..."></textarea>
+    </div>
+    <button class="w-full bg-primary text-on-primary py-6 font-label-caps text-label-caps tracking-widest hover:bg-primary-container transition-all shadow-lg uppercase">
+                    POŠALJI UPIT
+                </button>
+    </form>
+    </div>
+    </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-container dark:bg-tertiary-container border-t border-outline-variant/50">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-20">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-12 md:gap-24 mb-16">
+    <div class="max-w-sm">
+    <img alt="ADRIATICLUX" class="h-16 mb-8 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc81DRegUwS23oOHyhyGF9Y5c2KCo__Gchvqj9YUDwui0pKkXbpvbZjRRMicEWBBE70tIA2pQ6hD40xpDjTPAXd82FX7cdJ45uc47Az5w0ccZePwWzwIqbcEuu8JQDHonM8hmoUEcmcUVBEFN9T2RL1sxFgJmrfBURBQb5mPJ24XEqJMe2g2_G8G2tWi2MbEfFdnt0ITcr32tKyuutMo7GBEOOSMTaw2fA6bDYYceBH0rmd3w5UNZJf0dQ8rVDoW8HYKBlpmEsW_bb">
+    <p class="font-body-md text-on-surface-variant dark:text-on-tertiary-container">
+                        Jadranska elegancija bez premca. Doživite tihi luksuz našeg privatnog utočišta na najautentičnijem otoku Mediterana.
+                    </p>
+    </div>
+    <div class="grid grid-cols-2 gap-12 md:gap-24">
+    <div class="flex flex-col gap-4">
+    <span class="font-label-caps text-label-caps text-primary mb-4 uppercase">BRZI LINKOVI</span>
+    <a class="text-on-surface-variant dark:text-on-tertiary-container font-body-md hover:text-secondary transition-colors" href="#villa">Vila</a>
+    <a class="text-on-surface-variant dark:text-on-tertiary-container font-body-md hover:text-secondary transition-colors" href="#experiences">Doživljaji</a>
+    <a class="text-on-surface-variant dark:text-on-tertiary-container font-body-md hover:text-secondary transition-colors" href="#location">Lokacija</a>
+    </div>
+    <div class="flex flex-col gap-4">
+    <span class="font-label-caps text-label-caps text-primary mb-4 uppercase">POVEŽITE SE</span>
+    <a class="text-on-surface-variant dark:text-on-tertiary-container font-body-md hover:text-secondary transition-colors" href="#">Instagram</a>
+    <a class="text-on-surface-variant dark:text-on-tertiary-container font-body-md hover:text-secondary transition-colors" href="#">Kontaktirajte nas</a>
+    </div>
+    </div>
+    </div>
+    <div class="pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p class="font-label-caps text-[10px] text-on-surface-variant opacity-60">
+                    © 2024 ADRIATICLUX LUXURY VILLAS.
+                </p>
+    <div class="flex gap-8">
+    <a class="font-label-caps text-[10px] text-on-surface-variant opacity-60 hover:opacity-100" href="#">Politika privatnosti</a>
+    <a class="font-label-caps text-[10px] text-on-surface-variant opacity-60 hover:opacity-100" href="#">Uvjeti korištenja</a>
+    </div>
+    </div>
+    </div>
+    </footer>
+    
+    
+    </body></html>
